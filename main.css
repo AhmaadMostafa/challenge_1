@@ -79,24 +79,15 @@ body{
     .container .box1 {
         padding: 0px;
         border-radius:0px 0px 24px 24px ;
-        height: 35%;
-        width: 100%;
+        width: calc(100%);
         margin-bottom: 20px;
         padding: 0px;
     }
-    .container .box1 .circle{
-        transform: translateY(-15px);
-        width: 150px;
-        height: 150px;
-    }
-    .container .box1 .content .txt .p4{
-        transform: translateY(-40px);
-    }
+  
     .container .box1 .content .txt .p5{
         font-size: 14px;
         width: 250px;
         text-align: center;
-        transform: translateY(-45px);
     }
 }
 .container .box2{
@@ -203,11 +194,16 @@ span{
         border-radius: 0px 24px 24px 0px;
         background-color: white;
         box-shadow: 2px 18px 18px 15px hsl(241, 100%, 89% , 0.2);
+        padding: 12px;
+        height: 100%;
     }
     .container .box2 .Summary{
         padding: 0px 32px;
         margin: -6px 0px;
-        height: 43px;
+        height: 48px;
         font-size: 18px;
+    }
+    .container .box2 .btn{
+        margin: 35px 85px;
     }
 }
